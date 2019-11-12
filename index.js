@@ -5,7 +5,7 @@
 
   module.exports = {
     name: require('./package').name,
-    
+
     treeForPublic: function() {
       const imagesDir = new Funnel(join(this.root, 'public'), {
         include: ['**/*'],
